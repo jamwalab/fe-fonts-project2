@@ -1,7 +1,7 @@
 {
   "name": "fe-fonts-project2",
   "version": "0.1.0",
-  "homepage": "http://jamwalab.github.io",
+  "homepage": "https://jamwalab.github.io/fe-fonts-project2",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
