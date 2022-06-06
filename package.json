@@ -1,6 +1,7 @@
 {
   "name": "fe-fonts-project2",
   "version": "0.1.0",
+  "homepage": "http://jamwalab.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -21,7 +22,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint-staged": "eslint ."
+    "lint-staged": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
